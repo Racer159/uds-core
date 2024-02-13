@@ -4,14 +4,5 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "github>Racer159/uds-common//config/renovate.json5"
-  ],
-  "regexManagers":[
-    {
-      "fileMatch": ["^\\.github/workflows/commitlint\\.yaml$"],
-      "matchStrings": [
-        "npm install --save-dev (?<depName>@?.*?)@(?<currentValue>.+)"
-      ],
-      "datasourceTemplate": "npm"
-    }
   ]
 }
