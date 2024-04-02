@@ -10,7 +10,7 @@ components:
     charts:
       - name: metrics-server
         url: https://kubernetes-sigs.github.io/metrics-server
-        version: 3.11.0
+        version: 3.12.0
         namespace: metrics-server
         valuesFiles:
           - "values/values.yaml"
@@ -19,4 +19,4 @@ components:
         version: 0.1.0
         localPath: chart
     images:
-      - registry.k8s.io/metrics-server/metrics-server:v0.6.4
+      - registry.k8s.io/metrics-server/metrics-server:v0.7.1
