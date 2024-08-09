@@ -22,4 +22,4 @@ components:
         localPath: chart
     images:
       - docker.io/jimmidyson/configmap-reload:v0.8.0
-      - docker.io/grafana/promtail:2.9.2
+      - docker.io/grafana/promtail:2.9.10
